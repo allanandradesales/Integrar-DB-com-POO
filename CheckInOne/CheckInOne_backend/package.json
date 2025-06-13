@@ -1,0 +1,20 @@
+{
+  "name": "checkinone_backend",
+  "version": "1.0.0",
+  "description": "checkinone-api/\r ├── controllers/\r │   ├── authController.js\r │   ├── eventoController.js\r │   ├── inscricaoController.js\r │   ├── presencaController.js\r │   └── certificadoController.js\r ├── middleware/\r │   └── authMiddleware.js\r ├── models/\r │   └── db.js\r ├── routes/\r │   ├── authRoutes.js\r │   ├── eventoRoutes.js\r │   ├── inscricaoRoutes.js\r │   ├── presencaRoutes.js\r │   └── certificadoRoutes.js\r ├── .env\r ├── server.js\r ├── package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1"
+  }
+}

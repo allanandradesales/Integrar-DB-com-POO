@@ -1,0 +1,20 @@
+checkinone-api/
+├── controllers/
+│   ├── authController.js
+│   ├── eventoController.js
+│   ├── inscricaoController.js
+│   ├── presencaController.js
+│   └── certificadoController.js
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   └── db.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── eventoRoutes.js
+│   ├── inscricaoRoutes.js
+│   ├── presencaRoutes.js
+│   └── certificadoRoutes.js
+├── .env
+├── server.js
+├── package.json
